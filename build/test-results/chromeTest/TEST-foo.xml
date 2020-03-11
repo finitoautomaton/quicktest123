@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FooTestSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-01-06T20:02:30" hostname="Administrators-MacBook-Pro-2.local" time="102.842">
+  <properties/>
+  <testcase name="Add foobar successful" classname="FooTestSpec" time="102.842">
+    <failure message="org.openqa.selenium.WebDriverException: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:23496 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '3.6.0'
+</failure>
+    <failure message="org.openqa.selenium.WebDriverException" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:23496 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '3.6.0', revision: '6fbf3ec767'
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 23496
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 06, 2020 12:02:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
